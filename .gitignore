@@ -1,0 +1,17 @@
+# dependencies and app build
+node_modules/
+dist/
+
+# plugin build output
+plugin/build/
+
+# generated from the local EuroScope install by plugin/build.ps1
+plugin/sdk/EuroScopePlugInDll.lib
+plugin/sdk/EuroScopePlugInDll.def
+plugin/sdk/exports.txt
+plugin/sdk/EuroScopePlugInDll.exp
+
+# local editor / Claude settings
+.claude/
+.vscode/
+*.log
